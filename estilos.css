@@ -1,0 +1,77 @@
+body {
+    font-family: none;
+    
+}
+.calculadora .container{
+
+    display: flex;
+    margin: auto;
+    width: 80%;
+    
+}
+.calculadora .container .imagens{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    
+}
+.calculadora .container .imagens .container_img_pequena{
+    display: flex;
+
+}
+.calculadora .container .imagens .img_pequena{
+    padding-left: 7%;
+    padding-right: 5% ;
+    width: 65px;
+    height: 65px;
+}
+.calculadora .container_azul{
+    background-color: #0B3C58;
+    width: 497px;
+    height: 846px;
+    border-radius: 31px;
+}
+.calculadora .container_azul .conteudo{
+    padding: 10%;
+    padding-top: 15%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.calculadora .container_azul .conteudo span{
+    font-size: 22px;
+    padding: 10% 0px 10% 0px;
+}
+.calculadora .container_azul .conteudo .ipt{
+    width: 270px;
+    height: 53px;
+    border-radius: 20px;
+}
+.calculadora .container_azul .conteudo .botoes{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.calculadora .container_azul .conteudo .botao{
+    width: 280px;
+    height: 50px;
+    border-radius: 11px;
+    margin-top: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#38789D;
+}
+.calculadora .container_azul .conteudo .botao2{
+    width: 280px;
+    height: 50px;
+    border-radius: 11px;
+    margin-top: 10%;
+    background-color:#345E77;
+}
+.calculadora .container_azul .conteudo .botao span{
+    font-size: 35px;
+    display: flex;
+
+}
